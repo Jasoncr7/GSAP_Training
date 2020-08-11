@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Tenali Ramakrishna';
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+.bubbles{
+    margin: 0 auto;
+    display: flex;
+}
+.bub2{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.bub3{
+    margin-left: 60%;
+    margin-top: 15%;
+}
+.bub1{
+    margin-top: 20%;
+}
+.h1, .h2{
+    text-align: center;
+}
+.bg-col{
+    background-color: blue;
+    height: 1px;
+    position: absolute;
+    margin-left: 45%;
+    /* margin-bottom: 3%; */
+}
+.bg-col span{
+    position: relative;
+}
+.text{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+.button{
+    margin-left: 46%;
+    margin-top: 2%;
+}
+.textspan{
+    font-size: 24px;
+    text-align: center;
+    padding: 2px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 80%;
+    opacity: 0;
+    font-size: 1.3rem;
+}
+.btn{
+    font-size: 1.4rem;
+}
+@media (max-width: 1000px) {
+    *{
+        overflow: visible;
+    }
+    .bub3{
+        margin-left: 40%;
+    }
+    .button{
+        margin-left: 39%;
+    }
+    .bg-col{
+        margin-left: 37%;
+    }
+    footer{
+        padding-top: 10%;
+    }
+}
